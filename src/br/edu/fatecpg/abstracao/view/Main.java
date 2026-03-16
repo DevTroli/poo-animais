@@ -1,14 +1,13 @@
-package br.edu.fatecpg.abstraçao.view;
+package br.edu.fatecpg.abstracao.view;
 
-import br.edu.fatecpg.abstraçao.model.Macaco;
-import br.edu.fatecpg.abstraçao.model.Girafa;
-import br.edu.fatecpg.abstraçao.model.Jacare;
-import br.edu.fatecpg.abstraçao.model.Camelo;
+import br.edu.fatecpg.abstracao.model.Macaco;
+import br.edu.fatecpg.abstracao.model.Girafa;
+import br.edu.fatecpg.abstracao.model.Jacare;
+import br.edu.fatecpg.abstracao.model.Camelo;
 
-// imports pedro
-import br.edu.fatecpg.abstraçao.model.Urso;
-import br.edu.fatecpg.abstraçao.model.Coruja;
-import br.edu.fatecpg.abstraçao.model.Pinguim;
+import br.edu.fatecpg.abstracao.model.Urso;
+import br.edu.fatecpg.abstracao.model.Coruja;
+import br.edu.fatecpg.abstracao.model.Pinguim;
 
 public class Main {
   public static void main(String[] args) {
@@ -29,7 +28,6 @@ public class Main {
     cameloBactriano.infos();
     cameloBactriano.cuspir();
 
-    // animais do pedro
 
     Urso urso = new Urso("longo", "afiadas", "redondas", true, true);
     urso.infos();

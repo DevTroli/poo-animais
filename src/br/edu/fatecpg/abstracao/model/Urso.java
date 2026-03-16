@@ -1,4 +1,4 @@
-package br.edu.fatecpg.abstraçao.model;
+package br.edu.fatecpg.abstracao.model;
 
 public class Urso {
 
