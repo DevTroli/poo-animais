@@ -43,5 +43,13 @@ public class Main {
     pinguim.infos();
     pinguim.nadar();
 
+    Jacare jacareAçu = new Jacare("Reptil", "Carnivoro", "Quadrupede", true, 80);
+    jacareAçu.infos();
+    jacareAçu.tomarSol();
+
+    Camelo cameloBactriano = new Camelo("Mamifero", "Herbivoro", "Quadrupede", 2, true);
+    cameloBactriano.infos();
+    cameloBactriano.cuspir();
+
   }
 }
