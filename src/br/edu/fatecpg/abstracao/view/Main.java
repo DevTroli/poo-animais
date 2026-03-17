@@ -2,16 +2,31 @@ package br.edu.fatecpg.abstracao.view;
 
 import br.edu.fatecpg.abstracao.model.Camelo;
 import br.edu.fatecpg.abstracao.model.Coruja;
+import br.edu.fatecpg.abstracao.model.Elefante;
 import br.edu.fatecpg.abstracao.model.Girafa;
 import br.edu.fatecpg.abstracao.model.Jacare;
 import br.edu.fatecpg.abstracao.model.Macaco;
 import br.edu.fatecpg.abstracao.model.Pinguim;
 import br.edu.fatecpg.abstracao.model.Urso;
+import br.edu.fatecpg.abstracao.model.Leao;
+import br.edu.fatecpg.abstracao.model.Tigre;
 
 public class Main {
   public static void main(String[] args) {
 
-    Macaco chimpanze = new Macaco("Mamifero", "Onivoro", "Bipede", true, true);
+    Leao leao = new Leao("Quadrupede", "Juba", "Forte", "Dentes Grandes", true);
+    leao.infos();
+    leao.liderar();
+
+    Tigre tigre = new Tigre("Quadrupede", "Rápido", "Calda", true, true);
+    tigre.infos();
+    tigre.camuflar();
+
+    Elefante elefante = new Elefante("Quadrupede", "Grande", "Pesado", true, true);
+    elefante.infos();
+    elefante.pegarobjetos();
+
+    Macaco chimpanze = new Macaco("Mamifero","Onivoro", "Bipede", true, true);
     chimpanze.infos();
     chimpanze.braquiar();
 
@@ -38,5 +53,7 @@ public class Main {
     Pinguim pinguim = new Pinguim("curto", "nadadeira", true, "curta", "pequenas");
     pinguim.infos();
     pinguim.nadar();
+
+  
   }
 }
