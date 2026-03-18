@@ -1,3 +1,4 @@
+package br.edu.fatecpg.abstracao.model;
 
 public class Zebra {
 	public String padraoListras;

@@ -1,3 +1,4 @@
+package br.edu.fatecpg.abstracao.model;
 
 public class Raposa {
 	public String especie;

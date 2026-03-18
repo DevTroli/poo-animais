@@ -1,4 +1,4 @@
-
+package br.edu.fatecpg.abstracao.model;
 
 public class Papagaio {
 	public String corPena;
