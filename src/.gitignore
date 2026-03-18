@@ -1,0 +1,7 @@
+# Arquivos de classe compilados
+*.class
+
+# Pastas de build/compilação
+bin/
+target/
+build/
