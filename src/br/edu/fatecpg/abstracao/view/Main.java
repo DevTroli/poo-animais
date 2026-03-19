@@ -14,6 +14,9 @@ import br.edu.fatecpg.abstracao.model.Raposa;
 import br.edu.fatecpg.abstracao.model.Tigre;
 import br.edu.fatecpg.abstracao.model.Urso;
 import br.edu.fatecpg.abstracao.model.Zebra;
+import br.edu.fatecpg.abstracao.model.Cachorro;
+import br.edu.fatecpg.abstracao.model.Gato;
+import br.edu.fatecpg.abstracao.model.Cavalo;
 
 public class Main {
     public static void main(String[] args) {
@@ -78,5 +81,23 @@ public class Main {
         Coelho meuCoelho = new Coelho("Cabeça de Leão", "Branco com manchas pretas", 2, 2.5f, 30.0f);
         meuCoelho.infos();
         meuCoelho.fazerToca();
+
+        System.out.println("🐶 CACHORRO");
+        Cachorro meuDog = new Cachorro("Golden Retriever", "Grande", "Dourado", true, true);
+        meuDog.infos();
+        meuDog.latir();
+        meuDog.farejar();
+
+        System.out.println("\n🐱 GATO");
+        Gato meuGato = new Gato("Frajola", "Arrisco", "Verde", true, 7);
+        meuGato.infos();
+        meuGato.miar();
+        meuGato.ronronar();
+
+        System.out.println("\n🐎 CAVALO");
+        Cavalo meuCavalo = new Cavalo("Longa", 60.5, "Marrom", true, 5);
+        meuCavalo.infos();
+        meuCavalo.galopar();
+        meuCavalo.relinchar();
     }
 }
