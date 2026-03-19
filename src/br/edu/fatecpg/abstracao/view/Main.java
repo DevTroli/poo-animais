@@ -17,6 +17,9 @@ import br.edu.fatecpg.abstracao.model.Zebra;
 import br.edu.fatecpg.abstracao.model.Cachorro;
 import br.edu.fatecpg.abstracao.model.Gato;
 import br.edu.fatecpg.abstracao.model.Cavalo;
+import br.edu.fatecpg.abstracao.model.Aguia;
+import br.edu.fatecpg.abstracao.model.Tubarao;
+import br.edu.fatecpg.abstracao.model.Golfinho;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +27,19 @@ public class Main {
         Leao leao = new Leao("Quadrupede", "Juba", "Forte", "Dentes Grandes", true);
         leao.infos();
         leao.liderar();
-
+        
+        Aguia aguia = new Aguia("Penas", "Bico", "Asas", "Oviparo", true);
+        aguia.infos();
+        aguia.cacar();
+        
+        Tubarao tubarao = new Tubarao("Barbatana", "Sangue Frio", "Oviparo", true, true);
+        tubarao.infos();
+        tubarao.cacar();
+        
+        Golfinho golfinho = new Golfinho("Barbatana", "Sangue Quente", "Mamifero", true, true);
+        golfinho.infos();
+        golfinho.inteligencia();
+        
         Tigre tigre = new Tigre("Quadrupede", "Rápido", "Calda", true, true);
         tigre.infos();
         tigre.camuflar();
