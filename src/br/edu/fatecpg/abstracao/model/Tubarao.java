@@ -7,12 +7,13 @@ public class Tubarao {
   public String oviparo;
   public boolean carnivoro;
 
-  public Tubarao(String barbatana, String sangueFrio, String oviparo, boolean carnivoro, boolean guelras) {
-      this.barbatana = barbatana;
-      this.sangueFrio = sangueFrio;
-      this.oviparo = oviparo;
-      this.carnivoro = carnivoro;
-      this.guelras = guelras;
+  public Tubarao(
+      String barbatana, String sangueFrio, String oviparo, boolean carnivoro, boolean guelras) {
+    this.barbatana = barbatana;
+    this.sangueFrio = sangueFrio;
+    this.oviparo = oviparo;
+    this.carnivoro = carnivoro;
+    this.guelras = guelras;
   }
 
   public void nadar() {
@@ -29,13 +30,22 @@ public class Tubarao {
 
   public void infos() {
     System.out.println(
-    	"Tubarao {\n"
-    		 + "Guelras: " + guelras + "\n"
-    		 + "Barbatana: " + barbatana + "\n"
-    		 + "Sangue Frio: " + sangueFrio + "\n"
-    		 + "Carnivoro: " + carnivoro + "\n"
-    		 + "Oviparo: " + oviparo + "\n"
-    		 + "}"
-    );
+        "Tubarao {\n"
+            + "Guelras: "
+            + guelras
+            + "\n"
+            + "Barbatana: "
+            + barbatana
+            + "\n"
+            + "Sangue Frio: "
+            + sangueFrio
+            + "\n"
+            + "Carnivoro: "
+            + carnivoro
+            + "\n"
+            + "Oviparo: "
+            + oviparo
+            + "\n"
+            + "}");
   }
 }

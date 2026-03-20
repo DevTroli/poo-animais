@@ -7,7 +7,7 @@ public class Macaco {
   public boolean pelagem;
   public boolean rabo;
 
-  public Macaco(String taxonomia, String dieta, String locomoçao, boolean pelagem, boolean rabo){
+  public Macaco(String taxonomia, String dieta, String locomoçao, boolean pelagem, boolean rabo) {
     this.taxonomia = taxonomia;
     this.dieta = dieta;
     this.locomoçao = locomoçao;
@@ -16,7 +16,7 @@ public class Macaco {
   }
 
   public void braquiar() {
-   System.out.println("**Pulando de Cipo em Cipo**"); 
+    System.out.println("**Pulando de Cipo em Cipo**");
   }
 
   public void escalar() {
@@ -28,6 +28,6 @@ public class Macaco {
   }
 
   public void infos() {
-    System.out.println("🐒: " + taxonomia + " "  + locomoçao + " com uma dieta de " + dieta);
+    System.out.println("🐒: " + taxonomia + " " + locomoçao + " com uma dieta de " + dieta);
   }
 }

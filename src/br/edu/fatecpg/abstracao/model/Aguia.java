@@ -9,12 +9,12 @@ public class Aguia {
   public String asas;
 
   public Aguia(String penas, String bico, String asas, String oviparo, boolean carnivoro) {
-	    this.penas = penas;
-	    this.bico = bico;
-	    this.asas = asas;
-	    this.oviparo = oviparo;
-	    this.carnivoro = carnivoro;
-	}
+    this.penas = penas;
+    this.bico = bico;
+    this.asas = asas;
+    this.oviparo = oviparo;
+    this.carnivoro = carnivoro;
+  }
 
   public void voar() {
     System.out.println("*Levanta voo*");
@@ -32,12 +32,21 @@ public class Aguia {
   public void infos() {
     System.out.println(
         "Aguia {\n"
-        + "Asas: " + asas + "\n"
-        + "Penas: " + penas + "\n"
-        + "Bico: " + bico + "\n"
-        + "Carnivoro: " + carnivoro + "\n"
-        + "Oviparo: " + oviparo + "\n"
-        + "}"
-    );
+            + "Asas: "
+            + asas
+            + "\n"
+            + "Penas: "
+            + penas
+            + "\n"
+            + "Bico: "
+            + bico
+            + "\n"
+            + "Carnivoro: "
+            + carnivoro
+            + "\n"
+            + "Oviparo: "
+            + oviparo
+            + "\n"
+            + "}");
   }
 }

@@ -7,7 +7,7 @@ public class Jacare {
   public boolean temCauda;
   public int dentes;
 
-  public Jacare(String taxonomia, String dieta, String locomoçao, boolean temCauda, int dentes){
+  public Jacare(String taxonomia, String dieta, String locomoçao, boolean temCauda, int dentes) {
     this.taxonomia = taxonomia;
     this.dieta = dieta;
     this.locomoçao = locomoçao;

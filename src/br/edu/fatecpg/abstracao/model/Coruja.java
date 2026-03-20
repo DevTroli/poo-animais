@@ -8,7 +8,8 @@ public class Coruja {
   public boolean visaoNoturna;
   public boolean garrasAfiadas;
 
-  public Coruja(String asas, String penas, String bico, boolean visaoNoturna, boolean garrasAfiadas) {
+  public Coruja(
+      String asas, String penas, String bico, boolean visaoNoturna, boolean garrasAfiadas) {
     this.asas = asas;
     this.penas = penas;
     this.bico = bico;
@@ -17,11 +18,13 @@ public class Coruja {
   }
 
   public void voo() {
-    System.out.println("A coruja voa pela noite procurando o sentido da sua existência perante às trevas...");
+    System.out.println(
+        "A coruja voa pela noite procurando o sentido da sua existência perante às trevas...");
   }
 
   public void caca() {
-    System.out.println("A Coruja caça sua presa indefesa na calada da noite sem dar chance de reação");
+    System.out.println(
+        "A Coruja caça sua presa indefesa na calada da noite sem dar chance de reação");
   }
 
   public void piar() {
@@ -31,12 +34,21 @@ public class Coruja {
   public void infos() {
     System.out.println(
         "🦉 Coruja {\n"
-        + "Asas: " + asas + "\n"
-        + "Penas: " + penas + "\n"
-        + "Bico: " + bico + "\n"
-        + "Visão Noturna: " + visaoNoturna + "\n"
-        + "Garras Afiadas: " + garrasAfiadas + "\n"
-        + "}"
-    );
+            + "Asas: "
+            + asas
+            + "\n"
+            + "Penas: "
+            + penas
+            + "\n"
+            + "Bico: "
+            + bico
+            + "\n"
+            + "Visão Noturna: "
+            + visaoNoturna
+            + "\n"
+            + "Garras Afiadas: "
+            + garrasAfiadas
+            + "\n"
+            + "}");
   }
 }
