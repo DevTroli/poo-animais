@@ -8,7 +8,12 @@ public class Urso {
   public boolean temDentes;
   public boolean temPelagem;
 
-  public Urso(String focinho, String garrasAfiadas, String orelhasRedondas, boolean temDentes, boolean temPelagem) {
+  public Urso(
+      String focinho,
+      String garrasAfiadas,
+      String orelhasRedondas,
+      boolean temDentes,
+      boolean temPelagem) {
     this.focinho = focinho;
     this.garrasAfiadas = garrasAfiadas;
     this.orelhasRedondas = orelhasRedondas;
@@ -31,12 +36,21 @@ public class Urso {
   public void infos() {
     System.out.println(
         "🐻 Urso {\n"
-        + "Focinho: " + focinho + "\n"
-        + "Garras: " + garrasAfiadas + "\n"
-        + "Orelhas: " + orelhasRedondas + "\n"
-        + "Tem dentes: " + temDentes + "\n"
-        + "Tem pelagem: " + temPelagem + "\n"
-        + "}"
-    );
+            + "Focinho: "
+            + focinho
+            + "\n"
+            + "Garras: "
+            + garrasAfiadas
+            + "\n"
+            + "Orelhas: "
+            + orelhasRedondas
+            + "\n"
+            + "Tem dentes: "
+            + temDentes
+            + "\n"
+            + "Tem pelagem: "
+            + temPelagem
+            + "\n"
+            + "}");
   }
 }
